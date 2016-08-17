@@ -1,0 +1,31 @@
+body{
+	background: url(../images/background-img.jpg);
+	background-size: 2160px 1408px;
+	background-repeat: no-repeat;
+}
+
+#headerAdjustments{
+	width: 80%;
+	text-align: right;
+	font-size: 2em;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+#yodaImgContainer, #darthVaderImgContainer, #grievousImgContainer, #countDookuImgContainer{
+	width: 200px;
+	height: 130px;
+	padding: 0px 25px 25px 25px;
+	border: solid 5px green;
+	background-color: white;
+	float: left;
+}
+
+#yodaImg, #darthVaderImg, #grievousImg, #countDookuImg{
+	width: 100%;
+	height: 100%;
+}
+
+#yodaName, #darkVaderName, #grievousName, #countDookuName{
+	text-align: center;
+	padding: 5px 0;
+}
