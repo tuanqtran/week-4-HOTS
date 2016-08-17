@@ -7,13 +7,19 @@ body{
 #headerAdjustments{
 	width: 80%;
 	text-align: right;
-	font-size: 2em;
+	font-size: 2.5em;
 	font-family: "Lucida Console", Monaco, monospace;
 }
 
+#yourCharText{
+	font-size: 2em;
+	font-family: "Lucida Console", Monaco, monospace;
+
+}
+
 #yodaImgContainer, #darthVaderImgContainer, #grievousImgContainer, #countDookuImgContainer{
-	width: 200px;
-	height: 130px;
+	width: 225px;
+	height: 200px;
 	padding: 0px 25px 25px 25px;
 	border: solid 5px green;
 	background-color: white;
@@ -22,10 +28,15 @@ body{
 
 #yodaImg, #darthVaderImg, #grievousImg, #countDookuImg{
 	width: 100%;
-	height: 100%;
+	height: 70%;
 }
 
 #yodaName, #darkVaderName, #grievousName, #countDookuName{
 	text-align: center;
 	padding: 5px 0;
+}
+
+#yodaStats, #darthVaderStats, #grievousStats, #countDookuStats{
+	text-align: center;
+	padding-top: 3px;
 }

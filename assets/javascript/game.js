@@ -33,27 +33,44 @@ starwarsHeader.html("Star Wars RPG!");
 $("#header").append(starwarsHeader);
 starwarsHeader.attr("id", "headerAdjustments");
 
-// Create yoda image
+
+// Your Character Text
+var yourCharText = $("<h3>");
+yourCharText.html("Your Character");
+$("#characterText").append(yourCharText);
+yourCharText.attr("id", "yourCharText");
+
+
+// Yoda Changes
 var yodaImgContainer = $("<div>");
 $("#yoda").append(yodaImgContainer);
 yodaImgContainer.attr("id", "yodaImgContainer");
 
-yoda = $("<p>");
-yoda.html(yoda.name);
-$("#yodaImgContainer").append(yoda);
-yoda.attr("id", "yodaName");
+var yodaName = $("<p>");
+yodaName.html(yoda.name);
+$("#yodaImgContainer").append(yodaName);
+yodaName.attr("id", "yodaName");
 
 var yodaImg = $("<img>");
 $("#yodaImgContainer").append(yodaImg);
 yodaImg.attr("src", "assets/images/1-yoda.jpg");
 yodaImg.attr("id", "yodaImg");
 
+var yodaStats = $("<p>");
+yodaStats.html("<p>Current HP: " + yoda.healthPoints + "</p>" +
+	"<p>Attack Power: " + yoda.attackPower + "</p>" +
+	"<p>Counter Attack Power: " + yoda.counterAttackPower + "</p>");
+$("#yodaImgContainer").append(yodaStats);
+yodaStats.attr("id", "yodaStats");
+
+
+// Darth Vader Changes
 var darthVaderImgContainer = $("<div>");
 $("#dark-vader").append(darthVaderImgContainer);
 darthVaderImgContainer.attr("id", "darthVaderImgContainer");
 
 var darthVaderName = $("<p>");
-darthVaderName.html("Darth Vader")
+darthVaderName.html(darkVader.name)
 $("#darthVaderImgContainer").append(darthVaderName);
 darthVaderName.attr("id", "darkVaderName");
 
@@ -62,12 +79,21 @@ $("#darthVaderImgContainer").append(darthVaderImg);
 darthVaderImg.attr("src", "assets/images/2-darth-vader.jpg");
 darthVaderImg.attr("id", "darthVaderImg");
 
+var darthVaderStats = $("<p>");
+darthVaderStats.html("<p>Current HP: " + darkVader.healthPoints + "</p>" +
+	"<p>Attack Power: " + darkVader.attackPower + "</p>" +
+	"<p>Counter Attack Power: " + darkVader.counterAttackPower + "</p>");
+$("#darthVaderImgContainer").append(darthVaderStats);
+darthVaderStats.attr("id", "darthVaderStats");
+
+
+// Grievous Changes
 var grievousImgContainer = $("<div>");
 $("#grievous").append(grievousImgContainer);
 grievousImgContainer.attr("id", "grievousImgContainer");
 
 var grievousName = $("<p>");
-grievousName.html("Grievous")
+grievousName.html(grievous.name)
 $("#grievousImgContainer").append(grievousName);
 grievousName.attr("id", "grievousName");
 
@@ -76,12 +102,21 @@ $("#grievousImgContainer").append(grievousImg);
 grievousImg.attr("src", "assets/images/3-grievous.jpg");
 grievousImg.attr("id", "grievousImg");
 
+var grievousStats = $("<p>");
+grievousStats.html("<p>Current HP: " + grievous.healthPoints + "</p>" +
+	"<p>Attack Power: " + grievous.attackPower + "</p>" +
+	"<p>Counter Attack Power: " + grievous.counterAttackPower + "</p>");
+$("#grievousImgContainer").append(grievousStats);
+grievousStats.attr("id", "grievousStats");
+
+
+// Count Dooku Changes
 var countDookuImgContainer = $("<div>");
 $("#count-dooku").append(countDookuImgContainer);
 countDookuImgContainer.attr("id", "countDookuImgContainer");
 
 var countDookuName = $("<p>");
-countDookuName.html("Grievous")
+countDookuName.html(countDooku.name)
 $("#countDookuImgContainer").append(countDookuName);
 countDookuName.attr("id", "countDookuName");
 
@@ -90,6 +125,11 @@ $("#countDookuImgContainer").append(countDookuImg);
 countDookuImg.attr("src", "assets/images/4-count-dooku.jpg");
 countDookuImg.attr("id", "countDookuImg");
 
-
+var countDookuStats = $("<p>");
+countDookuStats.html("<p>Current HP: " + countDooku.healthPoints + "</p>" +
+	"<p>Attack Power: " + countDooku.attackPower + "</p>" +
+	"<p>Counter Attack Power: " + countDooku.counterAttackPower + "</p>");
+$("#countDookuImgContainer").append(countDookuStats);
+countDookuStats.attr("id", "countDookuStats");
 
 // console.log(darkVader.counterAttackPower);
