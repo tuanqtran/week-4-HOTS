@@ -5,16 +5,103 @@ body{
 }
 
 #headerAdjustments{
-	width: 80%;
-	text-align: right;
+	margin-top: 5%;
+	text-align: center;
 	font-size: 2.5em;
-	font-family: "Lucida Console", Monaco, monospace;
+	color: #C9F3FF;
+    text-shadow: 2px 2px 10px #0B1633;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
 }
 
-#yourCharText{
+#yourCharText, #enemiesCharText, #fightCharText, #defenderCharText{
+	text-align: center;
 	font-size: 2em;
-	font-family: "Lucida Console", Monaco, monospace;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+    text-shadow: 2px 2px 10px #000000;
+	clear: both;
 
+}
+
+.videoContainer{
+    display: block;
+    margin: auto;
+    /*width: 2000px;*/
+    /*width: 20%;*/
+}
+
+.videoWrapper{
+	width: 400px;
+	height: 250px;
+	/*display:block;*/
+	overflow:hidden;
+	margin: auto;
+	float: left;
+	position: relative;
+	z-index: 4;
+}
+
+.jainaVideo, .azmodanVideo, .johannaVideo, .murkyVideo{
+	width: 500px;
+	position: relative;
+	left: -150px;
+	top: -20px;
+
+}
+
+#jainaName, #azmodanName, #johannaName, #murkyName{
+	text-align: center;
+	padding: 5px 0;
+}
+
+#jainaContentContainer, #azmodanContentContainer, #johannaContentContainer, #murkyContentContainer{
+	width: 350px;
+	height: 275px;
+	font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 10px #000000;
+	color: white;
+}
+
+#jainaContentContainer:hover, #azmodanContentContainer:hover, #johannaContentContainer:hover, #murkyContentContainer:hover{
+	background-color: green;
+}
+
+#jainaContentContainer, #azmodanContentContainer{
+	margin-bottom: 100px;
+}
+
+#jainaContentContainer h1, #azmodanContentContainer h1, #johannaContentContainer h1, #murkyContentContainer h1{
+	font-size: 1.5em;
+	font-weight: bold;
+    text-shadow: 2px 2px 10px blue;
+}
+
+#jaina, #azmodan, #johanna, #murky{
+	float: left;
+}
+
+#azmodan, #murky{
+	margin-left: 5px;
+}
+
+#jainaStats, #azmodanStats, #johannaStats, #murkyStats{
+	text-align: center;
+}
+
+#chosenCharacters{
+	width: 705px;
+	height: 800px;
+}
+
+.clear{
+	clear: both;
+}
+
+/*#yoda, #darth-vader, #grievous, #count-dooku{
+    display: block;
+    margin: auto;
+    width: 60%;
 }
 
 #yodaImgContainer, #darthVaderImgContainer, #grievousImgContainer, #countDookuImgContainer{
@@ -31,7 +118,7 @@ body{
 	height: 70%;
 }
 
-#yodaName, #darkVaderName, #grievousName, #countDookuName{
+#yodaName, #darthVaderName, #grievousName, #countDookuName{
 	text-align: center;
 	padding: 5px 0;
 }
@@ -39,4 +126,16 @@ body{
 #yodaStats, #darthVaderStats, #grievousStats, #countDookuStats{
 	text-align: center;
 	padding-top: 3px;
+}*/
+
+#attackButton{
+	background-color: black;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 15px 32px;
+	border-radius: 10%;
+	display: block;
+	margin: auto;
+
 }
+
