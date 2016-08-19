@@ -58,12 +58,9 @@ body{
 	padding: 5px 0;
 }
 
-.jainaContentContainer, .azmodanContentContainer,
-.johannaContentContainer, .murkyContentContainer,
-.jainaContentContainer2, .azmodanContentContainer2,
-.johannaContentContainer2, .murkyContentContainer2,
-.jainaContentContainer3, .azmodanContentContainer3,
-.johannaContentContainer3, .murkyContentContainer3{
+.contentContainer,
+.contentContainer2,
+.contentContainer3{
 	width: 350px;
 	height: 275px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -71,44 +68,36 @@ body{
 	color: white;
 }
 
-.jainaContentContainer:hover, .azmodanContentContainer:hover,
-.johannaContentContainer:hover, .murkyContentContainer:hover{
+.contentContainer:hover, .contentContainer:hover,
+.contentContainer:hover, .contentContainer:hover{
 	background-color: green;
 }
 
-.jainaContentContainer, .azmodanContentContainer{
+.contentContainer, .contentContainer{
 	margin-bottom: 100px;
 }
 
-.jainaContentContainer h1, .azmodanContentContainer h1,
-.johannaContentContainer h1, .murkyContentContainer h1,
-.jainaContentContainer2 h1, .azmodanContentContainer2 h1,
-.johannaContentContainer2 h1, .murkyContentContainer2 h1,
-.jainaContentContainer3 h1, .azmodanContentContainer3 h1,
-.johannaContentContainer3 h1, .murkyContentContainer3 h1{
+.contentContainer h1, .contentContainer2 h1,
+.contentContainer3 h1,{
 
 	font-size: 1.5em;
 	font-weight: bold;
     text-shadow: 2px 2px 10px blue;
 }
 
-.jainaContentContainer2:hover, .azmodanContentContainer2:hover,
-.johannaContentContainer2:hover, .murkyContentContainer2:hover{
+.contentContainer2:hover{
 	background-color: red;
 }
 
-.jainaContentContainer2, .azmodanContentContainer2,
-.johannaContentContainer2, .murkyContentContainer2{
+.contentContainer2{
 	margin-bottom: 100px;
 }
 
-.jainaContentContainer3:hover, .azmodanContentContainer3:hover,
-.johannaContentContainer3:hover, .murkyContentContainer3:hover{
+.contentContainer3:hover{
 	background-color: purple;
 }
 
-.jainaContentContainer3, .azmodanContentContainer3,
-.johannaContentContainer3, .murkyContentContainer3{
+.contentContainer3{
 	/*background: blue;*/
 }
 
@@ -121,26 +110,25 @@ body{
 	margin-left: 5px;
 }
 
-.jainaStats, .azmodanStats,
-.johannaStats, .murkyStats{
+.stats{
 	text-align: center;
 }
 
-.chosenCharacters{
+.chosenCharactersContainer{
 	width: 705px;
 	height: 800px;
 	/*background: red;*/
 	float: left;
 }
 
-.enemiesCharacters{
+.enemiesCharactersContainer{
 	width: 705px;
 	height: 800px;
 	/*background: orange;*/
 	float: right;
 }
 
-.defenderSection{
+.defenderCharactersContainer{
 	width: 350px;
 	height: 400px;
 	margin: auto;
