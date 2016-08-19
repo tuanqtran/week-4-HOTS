@@ -4,24 +4,25 @@ body{
 	background-repeat: no-repeat;
 }
 
+
 #headerAdjustments{
-	margin-top: 5%;
+	margin: 2.5% 0;
 	text-align: center;
-	font-size: 2.5em;
+	font-size: 5em;
 	color: #C9F3FF;
     text-shadow: 2px 2px 10px #0B1633;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 }
 
-#yourCharText, #enemiesCharText, #fightCharText, #defenderCharText{
+#yourCharText, #enemiesCharText,
+#fightCharText, #defenderCharText{
 	text-align: center;
 	font-size: 2em;
 	font-family: Arial, Helvetica, sans-serif;
 	color: white;
     text-shadow: 2px 2px 10px #000000;
-	clear: both;
-
+	/*clear: both;*/
 }
 
 .videoContainer{
@@ -42,7 +43,8 @@ body{
 	z-index: 4;
 }
 
-.jainaVideo, .azmodanVideo, .johannaVideo, .murkyVideo{
+.jainaVideo, .azmodanVideo,
+.johannaVideo, .murkyVideo{
 	width: 500px;
 	position: relative;
 	left: -150px;
@@ -50,12 +52,18 @@ body{
 
 }
 
-#jainaName, #azmodanName, #johannaName, #murkyName{
+#jainaName, #azmodanName,
+#johannaName, #murkyName{
 	text-align: center;
 	padding: 5px 0;
 }
 
-#jainaContentContainer, #azmodanContentContainer, #johannaContentContainer, #murkyContentContainer{
+#jainaContentContainer, #azmodanContentContainer,
+#johannaContentContainer, #murkyContentContainer,
+#jainaContentContainer2, #azmodanContentContainer2,
+#johannaContentContainer2, #murkyContentContainer2,
+#jainaContentContainer3, #azmodanContentContainer3,
+#johannaContentContainer3, #murkyContentContainer3{
 	width: 350px;
 	height: 275px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -63,7 +71,8 @@ body{
 	color: white;
 }
 
-#jainaContentContainer:hover, #azmodanContentContainer:hover, #johannaContentContainer:hover, #murkyContentContainer:hover{
+#jainaContentContainer:hover, #azmodanContentContainer:hover,
+#johannaContentContainer:hover, #murkyContentContainer:hover{
 	background-color: green;
 }
 
@@ -71,13 +80,39 @@ body{
 	margin-bottom: 100px;
 }
 
-#jainaContentContainer h1, #azmodanContentContainer h1, #johannaContentContainer h1, #murkyContentContainer h1{
+#jainaContentContainer h1, #azmodanContentContainer h1,
+#johannaContentContainer h1, #murkyContentContainer h1,
+#jainaContentContainer2 h1, #azmodanContentContainer2 h1,
+#johannaContentContainer2 h1, #murkyContentContainer2 h1,
+#jainaContentContainer3 h1, #azmodanContentContainer3 h1,
+#johannaContentContainer3 h1, #murkyContentContainer3 h1{
+
 	font-size: 1.5em;
 	font-weight: bold;
     text-shadow: 2px 2px 10px blue;
 }
 
-#jaina, #azmodan, #johanna, #murky{
+#jainaContentContainer2:hover, #azmodanContentContainer2:hover,
+#johannaContentContainer2:hover, #murkyContentContainer2:hover{
+	background-color: red;
+}
+
+#jainaContentContainer2, #azmodanContentContainer2, #johannaContentContainer2{
+	margin-bottom: 100px;
+}
+
+#jainaContentContainer3:hover, #azmodanContentContainer3:hover,
+#johannaContentContainer3:hover, #murkyContentContainer3:hover{
+	background-color: purple;
+}
+
+#jainaContentContainer3, #azmodanContentContainer3,
+#johannaContentContainer3, #murkyContentContainer3{
+	background: blue;
+}
+
+#jaina, #azmodan,
+#johanna, #murky{
 	float: left;
 }
 
@@ -85,18 +120,50 @@ body{
 	margin-left: 5px;
 }
 
-#jainaStats, #azmodanStats, #johannaStats, #murkyStats{
+#jainaStats, #azmodanStats,
+#johannaStats, #murkyStats{
 	text-align: center;
 }
 
 #chosenCharacters{
 	width: 705px;
 	height: 800px;
+	/*background: red;*/
+	float: left;
 }
 
-.clear{
-	clear: both;
+#enemiesCharacters{
+	width: 705px;
+	height: 800px;
+	/*background: orange;*/
+	float: right;
 }
+
+#defenderSection{
+	width: 350px;
+	height: 400px;
+	margin: auto;
+	margin-top: 100px;
+	/*background-color: purple;*/
+}
+
+#randomContainer{
+	width: 100%;
+	height: 100%;
+	background: purple;
+}
+
+#attackButton{
+	background-color: black;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 15px 32px;
+	border-radius: 10%;
+	display: block;
+	margin: auto;
+	margin-top: 25px;
+}
+
 
 /*#yoda, #darth-vader, #grievous, #count-dooku{
     display: block;
@@ -127,15 +194,3 @@ body{
 	text-align: center;
 	padding-top: 3px;
 }*/
-
-#attackButton{
-	background-color: black;
-	color: white;
-	font-family: Arial, Helvetica, sans-serif;
-	padding: 15px 32px;
-	border-radius: 10%;
-	display: block;
-	margin: auto;
-
-}
-

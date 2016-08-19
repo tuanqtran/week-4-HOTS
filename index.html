@@ -9,11 +9,16 @@
 </head>
 <body>
 	<div id="header">
-		<!-- <img src="assets/images/hots-logo.jpg" id="yodaImg"> -->
 		<h1 id="headerAdjustments">Hero of the Storm</h1>
 	</div>
 
-	<div id="chosenCharacters"}>
+
+	<div id="chosenCharacters">
+
+		<div id="characterText">
+			<h3 id="yourCharText">Choose Your Character</h3>
+		</div>
+
 		<section id="topCharactersContainer">
 			<div id="jaina">
 				<div class="videoContainer">
@@ -119,24 +124,138 @@
 		</section>
 	</div>
 
-	<div id="characterText">
-		<h3 id="yourCharText">Your Character</h3>
-	</div>
-	<br><br><br><br><br><br><br><br><br><br>
-	<div id="enemiesText">
-		<h3 id="enemiesCharText">Enemies Avaiable To Attack</h3>
+
+
+
+
+	<div id="enemiesCharacters">
+
+		<div id="enemiesText">
+			<h3 id="enemiesCharText">Enemies Avaiable To Attack</h3>
+		</div>
+
+		<section id="topCharactersContainer">
+			<div id="jaina">
+				<div class="videoContainer">
+					<div id="jainaContentContainer2">
+
+						<section id="jainaName">
+							<h1>Jaina</h1>
+							<p>The ArchMage</p>
+						</section>
+
+						<div class="videoWrapper">
+							<video loop="" muted="" autoplay class="jainaVideo">
+								<source src="http://media.blizzard.com/heroes/videos/heroes/skins/jaina_tempestRegaliaJaina.webm" type="video/webm">
+							</video>
+						</div> <!-- End of videoWrapper div -->
+
+						<section id="jainaStats">
+							<p>Current HP: 100</p>
+							<p>Attack Power: 10</p>
+							<p>Counter Attack Power: 15</p>				
+						</section>
+
+					</div> <!-- End of jainaContentContainer -->
+				</div><!-- End of videoContainer div -->
+			</div> <!-- End of jaina div -->
+
+			<div id="azmodan">
+				<div class="videoContainer">
+					<div id="azmodanContentContainer2">
+
+						<section id="azmodanName">
+							<h1>Azmodan</h1>
+							<p>Lord of Sin</p>
+						</section>
+
+						<div class="videoWrapper">
+							<video loop="" muted="" autoplay class="azmodanVideo">
+								<source src="http://media.blizzard.com/heroes/videos/heroes/skins/azmodan_masterAzmodan.webm" type="video/webm">
+							</video>
+						</div> <!-- End of videoWrapper div -->
+
+						<section id="azmodanStats">
+							<p>Current HP: 150</p>
+							<p>Attack Power: 25</p>
+							<p>Counter Attack Power: 5</p>				
+						</section>
+
+					</div> <!-- End of azmodanContentContainer -->
+				</div><!-- End of videoContainer div -->
+			</div> <!-- End of azmodan div -->
+		</section>
+	
+		<section id="bottomCharactersContainer">
+			<div id="johanna">
+				<div class="videoContainer">
+					<div id="johannaContentContainer2">
+
+						<section id="johannaName">
+							<h1>Johanna</h1>
+							<p>Crusader of Zakarum</p>
+						</section>
+
+						<div class="videoWrapper">
+							<video loop="" muted="" autoplay class="johannaVideo">
+								<source src="http://media.blizzard.com/heroes/videos/heroes/skins/johanna_crusaderOfZakarum.webm">
+							</video>
+						</div> <!-- End of videoWrapper div -->
+
+						<section id="johannaStats">
+							<p>Current HP: 400</p>
+							<p>Attack Power: 25</p>
+							<p>Counter Attack Power: 5</p>				
+						</section>
+
+					</div> <!-- End of johannaContentContainer -->
+				</div><!-- End of videoContainer div -->
+			</div> <!-- End of johanna div -->
+		</section>
 	</div>
 
-	<div id="fightText">
-		<h3 id="fightCharText">Fight Section</h3>
+
+
+
+	<div id="defenderSection">
+
+		<div id="defenderText">
+			<h3 id="defenderCharText">Defender</h3>
+		</div>
+
+		<section id="topCharactersContainer">
+			<div id="jaina">
+				<div class="videoContainer">
+					<div id="jainaContentContainer3">
+
+						<section id="jainaName">
+							<h1>Jaina</h1>
+							<p>The ArchMage</p>
+						</section>
+
+						<div class="videoWrapper">
+							<video loop="" muted="" autoplay class="jainaVideo">
+								<source src="http://media.blizzard.com/heroes/videos/heroes/skins/jaina_tempestRegaliaJaina.webm" type="video/webm">
+							</video>
+						</div> <!-- End of videoWrapper div -->
+
+						<section id="jainaStats">
+							<p>Current HP: 100</p>
+							<p>Attack Power: 10</p>
+							<p>Counter Attack Power: 15</p>				
+						</section>
+
+					</div> <!-- End of jainaContentContainer -->
+				</div><!-- End of videoContainer div -->
+			</div> <!-- End of jaina div -->
+		</section>
 	</div>
+
+
 
 	<button id="attackButton">Attack</button>
 
-	<div id="defenderText">
-		<h3 id="defenderCharText">Defender</h3>
-	</div>
-
+	<div id="fightInfo"></div>
 
 
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
