@@ -1,30 +1,168 @@
 var jaina = {
-	"name": "Yoda",
+	"name": "Jaina",
 	"healthPoints": 100,
 	"attackPower": 10,
 	"counterAttackPower": 15
 };
 
 var azmodan = {
-	"name": "Darth Vader",
+	"name": "Azmodan",
 	"healthPoints": 150,
 	"attackPower": 15,
 	"counterAttackPower": 20
 };
 
 var johanna = {
-	"name": "Grievous",
+	"name": "Johanna",
 	"healthPoints": 200,
 	"attackPower": 20,
 	"counterAttackPower": 30
 };
 
 var murky = {
-	"name": "Count Dooku",
+	"name": "Murky",
 	"healthPoints": 120,
 	"attackPower": 10,
 	"counterAttackPower": 15
 };
+
+$(".yourCharacter1").one("click", function(){
+	$(".yourCharacter2").appendTo(".enemyCharacter2");
+	$(".yourCharacter2").addClass("enemyCharacter2");
+	$(".yourCharacter2").removeClass("yourCharacter2");
+	$(".azmodanContentContainer").addClass("azmodanContentContainer2");
+	$(".azmodanContentContainer").removeClass("azmodanContentContainer");
+
+
+	$(".yourCharacter3").appendTo(".enemyCharacter3");
+	$(".yourCharacter3").addClass("enemyCharacter3");
+	$(".yourCharacter3").removeClass("yourCharacter3");
+	$(".johannaContentContainer").addClass("johannaContentContainer2");
+	$(".johannaContentContainer").removeClass("johannaContentContainer");
+
+	$(".yourCharacter4").appendTo(".enemyCharacter4");
+	$(".yourCharacter4").addClass("enemyCharacter4");
+	$(".yourCharacter4").removeClass("yourCharacter4");
+	$(".murkyContentContainer").addClass("murkyContentContainer2");
+	$(".murkyContentContainer").removeClass("murkyContentContainer");
+});
+
+$(".yourCharacter2").one("click", function(){
+	$(".yourCharacter1").appendTo(".enemyCharacter1");
+	$(".yourCharacter1").addClass("enemyCharacter1");
+	$(".yourCharacter1").removeClass("yourCharacter1");
+	$(".jainaContentContainer").addClass("jainaContentContainer2");
+	$(".jainaContentContainer").removeClass("jainaContentContainer");
+
+	$(".yourCharacter3").appendTo(".enemyCharacter3");
+	$(".yourCharacter3").addClass("enemyCharacter3");
+	$(".yourCharacter3").removeClass("yourCharacter3");
+	$(".johannaContentContainer").addClass("johannaContentContainer2");
+	$(".johannaContentContainer").removeClass("johannaContentContainer");
+
+	$(".yourCharacter4").appendTo(".enemyCharacter4");
+	$(".yourCharacter4").addClass("enemyCharacter4");
+	$(".yourCharacter4").removeClass("yourCharacter4");
+	$(".murkyContentContainer").addClass("murkyContentContainer2");
+	$(".murkyContentContainer").removeClass("murkyContentContainer");
+});
+
+$(".yourCharacter3").one("click", function(){
+	$(".yourCharacter1").appendTo(".enemyCharacter1");
+	$(".yourCharacter1").addClass("enemyCharacter1");
+	$(".yourCharacter1").removeClass("yourCharacter1");
+	$(".jainaContentContainer").addClass("jainaContentContainer2");
+	$(".jainaContentContainer").removeClass("jainaContentContainer");
+
+	$(".yourCharacter2").appendTo(".enemyCharacter2");
+	$(".yourCharacter2").addClass("enemyCharacter2");
+	$(".yourCharacter2").removeClass("yourCharacter2");
+	$(".azmodanContentContainer").addClass("azmodanContentContainer2");
+	$(".azmodanContentContainer").removeClass("azmodanContentContainer");
+
+	$(".yourCharacter4").appendTo(".enemyCharacter4");
+	$(".yourCharacter4").addClass("enemyCharacter4");
+	$(".yourCharacter4").removeClass("yourCharacter4");
+	$(".murkyContentContainer").addClass("murkyContentContainer2");
+	$(".murkyContentContainer").removeClass("murkyContentContainer");
+});
+
+$(".yourCharacter4").one("click", function(){
+	$(".yourCharacter1").appendTo(".enemyCharacter1");
+	$(".yourCharacter1").addClass("enemyCharacter1");
+	$(".yourCharacter1").removeClass("yourCharacter1");
+	$(".jainaContentContainer").addClass("jainaContentContainer2");
+	$(".jainaContentContainer").removeClass("jainaContentContainer");
+
+	$(".yourCharacter2").appendTo(".enemyCharacter2");
+	$(".yourCharacter2").addClass("enemyCharacter2");
+	$(".yourCharacter2").removeClass("yourCharacter2");
+	$(".azmodanContentContainer").addClass("azmodanContentContainer2");
+	$(".azmodanContentContainer").removeClass("azmodanContentContainer");
+
+	$(".yourCharacter3").appendTo(".enemyCharacter3");
+	$(".yourCharacter3").addClass("enemyCharacter3");
+	$(".yourCharacter3").removeClass("yourCharacter3");
+	$(".johannaContentContainer").addClass("johannaContentContainer2");
+	$(".johannaContentContainer").removeClass("johannaContentContainer");
+});
+
+
+
+
+
+
+
+
+
+
+$(".enemyCharacter1").one("click", function(){
+	$(".enemyCharacter1").appendTo(".defenderCharacter1");
+	// $(".enemyCharacter1").addClass(".defenderCharacter1");
+	$(".enemyCharacter1").removeClass("enemyCharacter1");
+	$(".jainaContentContainer2").addClass("jainaContentContainer3");
+	$(".jainaContentContainer2").removeClass("jainaContentContainer2");	
+});
+
+$(".enemyCharacter2").one("click", function(){
+	$(".enemyCharacter2").appendTo(".defenderCharacter1");
+	// $(".enemyCharacter2").addClass(".defenderCharacter1");
+	$(".enemyCharacter2").removeClass("enemyCharacter2");
+	$(".azmodanContentContainer2").addClass("azmodanContentContainer3");
+	$(".azmodanContentContainer2").removeClass("azmodanContentContainer2");
+});
+
+$(".enemyCharacter3").one("click", function(){
+	$(".enemyCharacter3").appendTo(".defenderCharacter1");
+	// $(".enemyCharacter3").addClass(".defenderCharacter1");
+	$(".enemyCharacter3").removeClass("enemyCharacter3");
+	$(".johannaContentContainer2").addClass("johannaContentContainer3");
+	$(".johannaContentContainer2").removeClass("johannaContentContainer2");
+});
+
+$(".enemyCharacter4").one("click", function(){
+	$(".enemyCharacter4").appendTo(".defenderCharacter1");
+	// $(".enemyCharacter4").addClass(".defenderCharacter1");
+	$(".enemyCharacter4").removeClass("enemyCharacter4");
+	$(".murkyContentContainer2").addClass("murkyContentContainer3");
+	$(".murkyContentContainer2").removeClass("murkyContentContainer2");
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Create header
