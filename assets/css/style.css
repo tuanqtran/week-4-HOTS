@@ -128,6 +128,10 @@ body{
 	float: right;
 }
 
+.enemiesCharacters{
+	float: right;
+}
+
 .defenderCharactersContainer{
 	width: 350px;
 	height: 400px;
@@ -136,7 +140,7 @@ body{
 	/*background-color: purple;*/
 }
 
-.attackButton{
+.attackButton, .resetButton{
 	background-color: black;
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;
@@ -147,33 +151,22 @@ body{
 	margin-top: 25px;
 }
 
-
-/*#yoda, #darth-vader, #grievous, #count-dooku{
-    display: block;
-    margin: auto;
-    width: 60%;
-}
-
-#yodaImgContainer, #darthVaderImgContainer, #grievousImgContainer, #countDookuImgContainer{
-	width: 225px;
-	height: 200px;
-	padding: 0px 25px 25px 25px;
-	border: solid 5px green;
-	background-color: white;
-	float: left;
-}
-
-#yodaImg, #darthVaderImg, #grievousImg, #countDookuImg{
-	width: 100%;
-	height: 70%;
-}
-
-#yodaName, #darthVaderName, #grievousName, #countDookuName{
+.fightInfo{
+	margin-top: 20px;
 	text-align: center;
-	padding: 5px 0;
+	font-size: 1.2em;
+	color: #C9F3FF;
+    text-shadow: 2px 2px 10px #0B1633;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;	
 }
 
-#yodaStats, #darthVaderStats, #grievousStats, #countDookuStats{
+.defeated{
+	margin-bottom: 20px;
 	text-align: center;
-	padding-top: 3px;
-}*/
+	font-size: 1.2em;
+	color: white;
+    text-shadow: 2px 2px 10px #0B1633;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;		
+}
