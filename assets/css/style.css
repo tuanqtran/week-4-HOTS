@@ -121,6 +121,9 @@ body{
 	float: left;
 }
 
+.theChosenOne{
+	margin-left: 176.25px;
+}
 .enemiesCharactersContainer{
 	width: 705px;
 	height: 800px;
@@ -169,4 +172,14 @@ body{
     text-shadow: 2px 2px 10px #0B1633;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;		
+}
+
+.textHover{
+	cursor:pointer;
+}
+
+canvas {
+    position:absolute;
+    top:0;
+    left:0
 }
